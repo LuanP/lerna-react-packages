@@ -12,7 +12,8 @@
         "*.stories.js",
         "*.test.js",
         "*.spec.js",
-        "*.md"
+        "*.md",
+        "dist"
       ]
     }
   },

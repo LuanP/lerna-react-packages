@@ -1,30 +1,22 @@
 {
   "name": "@ui-library/button",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "UI Library - Button",
-  "main": "index.tsx",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "tsc --outDir dist"
+    "prepublishOnly": "tsc -m commonjs --outDir dist"
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "11851f769af81a13fb11dd7af4bde8fb99610ff4",
+  "gitHead": "44e1ae08eb0157661ae607ef081ccbaaf01d0d86",
   "dependencies": {
     "@material-ui/core": "^4.6.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.9.4",
-    "babel-loader": "^8.0.6",
-    "babelify": "^10.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "typescript": "^3.7.2"
   }
 }

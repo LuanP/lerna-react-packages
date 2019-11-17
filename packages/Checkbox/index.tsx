@@ -6,7 +6,7 @@ const Checkbox = () => {
     checkedA: true,
   })
 
-  const handleChange = name => event => {
+  const handleChange = (name: any) => (event: any) => {
     setState({ ...state, [name]: event.target.checked })
   }
 

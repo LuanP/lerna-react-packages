@@ -2,14 +2,21 @@
   "name": "@ui-library/checkbox",
   "version": "1.0.1",
   "description": "UI Library - Checkbox",
-  "main": "index.tsx",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc -m commonjs --outDir dist"
   },
   "author": "",
   "license": "ISC",
+  "gitHead": "44e1ae08eb0157661ae607ef081ccbaaf01d0d86",
   "dependencies": {
     "@material-ui/core": "^4.6.1"
   },
-  "gitHead": "11851f769af81a13fb11dd7af4bde8fb99610ff4"
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
 }
