@@ -5,7 +5,8 @@
     "commit": "npx git-cz",
     "publish": "lerna publish from-package",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "nexus": "docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3"
   },
   "dependencies": {
     "@ui-library/button": "file:packages/Button",
