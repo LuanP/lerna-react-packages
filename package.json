@@ -8,8 +8,8 @@
     "styleguide:build": "styleguidist build"
   },
   "dependencies": {
-    "@ui-library/button": "file:src/Button",
-    "@ui-library/checkbox": "file:src/Checkbox"
+    "@ui-library/button": "file:packages/Button",
+    "@ui-library/checkbox": "file:packages/Checkbox"
   },
   "devDependencies": {
     "cz-lerna-changelog": "^2.0.2",
