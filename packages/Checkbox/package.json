@@ -1,6 +1,6 @@
 {
   "name": "@ui-library/checkbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UI Library - Checkbox",
   "main": "dist/index.js",
   "files": [
@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "44e1ae08eb0157661ae607ef081ccbaaf01d0d86",
+  "gitHead": "ac55786a371fcb54daf8b908363d94483aa645ee",
   "dependencies": {
     "@material-ui/core": "^4.6.1"
   },

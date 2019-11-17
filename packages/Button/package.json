@@ -1,6 +1,6 @@
 {
   "name": "@ui-library/button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "UI Library - Button",
   "main": "dist/index.js",
   "files": [
@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "44e1ae08eb0157661ae607ef081ccbaaf01d0d86",
+  "gitHead": "ac55786a371fcb54daf8b908363d94483aa645ee",
   "dependencies": {
     "@material-ui/core": "^4.6.1"
   },
