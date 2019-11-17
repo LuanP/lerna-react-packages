@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "commit": "npx git-cz",
+    "publish": "lerna publish from-package",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
@@ -11,12 +12,12 @@
     "@ui-library/checkbox": "file:src/Checkbox"
   },
   "devDependencies": {
-    "acorn": "^6.3.0",
-    "buble": "^0.19.8",
     "cz-lerna-changelog": "^2.0.2",
     "lerna": "^3.18.4",
     "react-docgen-typescript": "^1.15.1",
-    "react-styleguidist": "^10.2.0"
+    "react-styleguidist": "^10.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "config": {
     "commitizen": {
