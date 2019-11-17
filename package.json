@@ -2,15 +2,45 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "dependencies": {
+    "@ui-library/button": "file:src/Button",
+    "@ui-library/checkbox": "file:src/Checkbox"
   },
   "devDependencies": {
+    "acorn": "^6.3.0",
+    "buble": "^0.19.8",
     "cz-lerna-changelog": "^2.0.2",
-    "lerna": "^3.18.4"
+    "lerna": "^3.18.4",
+    "react-docgen-typescript": "^1.15.1",
+    "react-styleguidist": "^10.2.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "command": {
+    "publish": {
+      "registry": "http://localhost:8081/repository/npm-private/"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -1,6 +1,20 @@
 {
   "packages": [
-    "packages/*"
+    "src/*"
   ],
+  "command": {
+    "publish": {
+      "registry": "http://localhost:8081/repository/npm-private/",
+      "ignoreChanges": [
+        ".babelrc",
+        ".eslintrc.js",
+        "babel.config.js",
+        "*.stories.js",
+        "*.test.js",
+        "*.spec.js",
+        "*.md"
+      ]
+    }
+  },
   "version": "independent"
 }
